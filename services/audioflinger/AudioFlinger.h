@@ -1071,6 +1071,9 @@ private:
     int32_t mAAudioBurstsPerBuffer = 0;
     int32_t mAAudioHwBurstMinMicros = 0;
 
+#include "EffectDapController.h"
+
+
     /** Interface for interacting with the AudioService. */
     mediautils::atomic_sp<IAudioManager>       mAudioManager;
 
